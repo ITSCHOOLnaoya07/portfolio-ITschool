@@ -1,0 +1,220 @@
+
+
+.header {
+  background:white;
+  height: 110px; 
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display:flex;
+ 
+}
+/*nav{
+  position: relative;
+  display: block;
+  text-decoration:center;
+  color: #999;
+  padding:20px 45px;c:\Users\かげ\Desktop\ROOTS内容・及び教材\ポートフォリオ 11-14-02\stylesheet.css
+  transition:all .3s;
+}*/
+
+
+
+.header-logo {
+    font-size: 30px;   
+    margin-left: 10px;
+    margin-right: auto; 
+}
+
+li {
+  list-style-type: none;
+}
+  
+.listo {  
+  font-family: 'Black Ops One',cursive;
+  margin-top: 0px;
+  text-align: center;
+  margin-right: 10px;
+  position: relative;
+  /* margin-left: 0; */
+}
+
+.listo ul {
+  display: flex;
+}
+
+.listo li { 
+  /* float: left; */
+  padding: 50px 12px ;
+  color: rgb(128, 125, 125);
+}
+
+.Title
+{
+  margin-top: -50px;
+ text-align: center;
+  color: rgb(238, 14, 14);
+}
+.main
+{
+  
+  margin-top: 100px;
+  text-align: center;
+  height:500px;
+  margin-bottom: 150px;
+}
+.background-image01{
+  
+  box-shadow: 0 3px 5px rgba(252, 252, 252, 255);
+  margin-right: 100px;
+ 
+}
+.keyframe2{
+  
+    animation-name: anim_h;
+    
+  } 
+  
+@keyframes anim_h {
+  
+    0% {
+  
+      transform: translate(0px, 0);
+
+    }
+
+    100% {
+  
+      transform: translate(-100%, 0);
+  
+    }
+  
+  }
+.animation{
+    
+      animation-timing-function: ease-in-out;
+    
+      animation-iteration-count: infinite;
+    
+      animation-direction: alternate;
+    
+      animation-duration: 4.5s;
+    
+    }
+.setu{
+  font-family: serif;
+  font:"left";
+  padding: 0px 100px;
+  width: 100%;
+  margin-top: -350px;
+  position: relative;
+}
+.btn{
+  font-family: 'Black Ops One',cursive;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  opacity:0.5;
+  background-color: rgb(20, 20, 20);
+  color: rgb(158, 153, 153);
+  margin-right: auto;
+}
+.self-introduction
+{
+ 
+ font-family: 'Black Ops One',cursive;
+  font:"left";
+  padding: 0px 100px;
+  width: 100%;
+  color: rgb(128, 125, 125);
+}
+.IntroductiontoVR{
+  margin-top: 200px;
+}
+
+.Title01
+{
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 290px;
+}
+.bodycollar02{
+  background: gray;
+  margin-left:0px;
+  margin-top: -150px;
+  width: 100%;
+}
+.VR
+{
+  margin-left:0px;
+  
+  
+}
+.TextVR01{
+  float: right;
+   color: white;
+  font-size: 80px;
+  text-align: center;
+  margin-top:200px;
+  font-family:'HGP行書体';
+}
+.text02{
+  
+  margin-left:100px;
+  
+}
+.text03{
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Black Ops One";
+  font-size: 50px;
+  color:gray ;
+}
+.informationSystem{
+
+  margin-top: 100px;
+  text-align: center;
+  
+  
+}
+
+
+.btn--orange {
+  color: gray;
+  background-color: white;
+  width: 10em;
+  height:10em;
+  
+}
+
+
+.btn--orange:hover {
+  color: gray;
+  background: white;
+  width: 10em;
+  height:10em;
+
+}
+
+.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(255, 255, 255, 255);
+  box-shadow: 0 3px 5px rgba(252, 252, 252, 255);
+  
+}
+
+.btn--circle {
+  border-radius: 100%;
+  line-height: 100px;
+  width: 300px;
+  height: 300px;
+  padding: 0;
+}
+a.btn--radius {
+  border-radius: 100vh;
+}

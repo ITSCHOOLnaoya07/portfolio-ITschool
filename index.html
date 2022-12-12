@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>ITschool yokohama naoya</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet.css" />
+ </head>
+ <body>
+   
+  
+    <div class="header" >
+          
+        <div class="header-logo">
+            <img src="logo02.png" width="350px"height="100px">
+            
+        </div>
+        <div class="listo">
+            
+            <ul id="page-link">
+                <li><a href="#01"><span>INTRODUCTION</span></a></li>
+                <li><a href="#02"><span>INTRODUCTION TO VR</span></a></li>
+                <li><a href="#03"><span>INFORMATION</span></a></li>
+            </ul>
+            <script type="text/javascript">
+              $(function(){
+             $('a[href^="#"]').click(function(){
+               var speed = 100;
+               var href= $(this).attr("href");
+               var target = $(href == "#" || href == "" ? 'html' : href);
+               var position = target.offset().top;
+               $("html, body").animate({scrollTop:position}, speed, "swing");
+               return false;
+             });
+           });
+           </script>
+        </div>
+        
+      
+    </div>
+  
+    <div class="main">
+     
+     <div class="self-introduction"> 
+        
+        <div class="Title" >
+            <img src="listlog01.png" width="500"height="300" id="01">
+           
+        </div>
+        <h1>NAOYA OTSUKA</h1> 
+        <div class="background-image01" >
+            <div style="text-align: right;"><img src="tank03.jpg"  style="opacity:0.5" class="keyframe2 animation"></div> 
+        </div>   
+        
+        
+     </div>
+     <h3 class="setu"><br>   
+        就労移行ITスクール横浜駅西口にて、<br>
+        現在unityツールを使用して、ITスクール事業所内の3D空間を再現した<br>
+        ITスクールの紹介用ソフトウェアを制作しております。<br>
+        よろしくお願いします。<br>
+        <a href="履歴書　ポートフォリオ11-15/index.html" class="btn">RESUME<br>履歴書</a> 
+     </h3> 
+     
+    </div>
+  
+
+    
+    <div class="IntroductiontoVR">
+      
+        <div class="Title01">
+            <img src="listlog02.png"  width="500"height="300"  id="02">
+        </div>
+      
+      <div class="bodycollar02">
+        <div class="VR">
+         <iframe  src="https://itschoolnaoya07.github.io/ITschool-VR-/"width="650" height="600"frameborder="0" allowfullscreen></iframe>
+           <div class="TextVR01">
+             <p class="wf-mplus1p">ITスクールVR作品
+                <input type="button" value="操作方法はこちら" style="height:150px; font-weight:50px; font-size:50px;"  onclick="Click_Sub()"  class="btn btn--orange btn--radius">
+                <iframe src="FPS操作方法.pdf" width="600" height="600" id="div1"></iframe>
+              </p>
+             <script language="Javascript">
+               document.getElementById("div1").style.display ="none";
+               function Click_Sub() 
+               {
+                 const div1 = document.getElementById("div1");
+
+                 if (document.all.div1.style.display == "block") 
+                 {
+                  document.all.div1.style.display = "none"
+                 } else {
+                  
+                  document.all.div1.style.display = "block"
+                 }
+              }
+             </script>
+                
+                
+              
+             
+           </div> 
+           
+
+        </div>        
+       </div>
+    </div>
+
+
+  <div id="03">  
+  <div class="text03">
+    information
+  </div>
+  <div class="informationSystem">           
+        <iframe  src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfEJNgdI8FQBJR49kMfQQN0SEYHl9BNGJUJZVxr6yjJVNQhkg/formResponse"width="600px" height="500px"></iframe>
+  </div>
+     
+  </body>
+</html>
+
+      
+    
